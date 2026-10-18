@@ -1,1 +1,17 @@
+name: DueloWand
+version: 1.1
+main: dev.duelo.DueloPlugin
+api-version: '1.21'
+description: Varitas de duelo 1v1 (cupula de cristal y arena con teletransporte).
+commands:
+  duelo:
+    description: Gestiona las varitas de duelo
+    usage: /duelo give <dome|arena> [jugador] | /duelo setarena <1|2>
+permissions:
+  duelo.admin:
+    description: Permite entregar varitas y configurar la arena
+    default: op
+  duelo.bypass:
+    description: Permite usar comandos durante un duelo de arena
+    default: op
 
